@@ -3,67 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Curriculum</title>
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+       .header{
+        margin: 0px;
+        padding: 10px;
+        background-color: rgb(247, 87, 87);
+       }
+       .main{
+        background-color: rgb(17, 16, 16);
+       }
+       ul.list{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        margin: 0px;
+        list-style: ;
+        
+       }
+       ul.list li a{
+        text-decoration: none;
+        color: rgb(247, 250, 253);
+        font: 20px;
+       }
+    </style>
 </head>
 <body>
-    <h2> Introduction </h2>
-    <p>Welcome to the <b>Course Curriculum</b>. This page demostrates the use of HTML <i>formatting</i>, <u>lists </u> and special characters such as &copy;, &lt;, &gt;. </p>
-
-    <h2>Semester 1 Subjects (Ordered List)</h2>
-    <ol>
-        <li>Mathematics</li>
-        <li>Computer Fundamentals</li>
-        <li>Programming in C</li>
-        <li>Electronics Basics</li>
-    </ol>
-
-    <h2>Programming Languages (Unordered List)</h2>
-    <ul>
-        <li>C</li>
-        <li>Java</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-    </ul>
-
-    <h2>Course Description (Description List)</h2>
-    <dl>
-        <dt><b>C Programming</b></dt>
-        <dd>Learn basics of C language including loops, arrays, and functions.</dd>
-        <dt><b>Java</b></dt>
-        <dd>Introduction to object-oriented programming concepts.</dd>
-    </dl>
-
-    <h2>Course Modules (Nested List)</h2>
-    <ol>
-        <li>Module 1: Basics
-            <ul>
-                <li>Introduction</li>
-                <li>History of Computers</li>
-            </ul>
-        </li>
-        <li>Module 2: Proagramming
-            <ul>
-                <li>Variables & Data Types</li>
-                <li>Control Statements</li>
-            </ul>
-        </li>
-    </ol>
-
-    <h2>Project Work (Mixed List)</h2>
-    <ul>
-        <li>Web Development
-            <ol type="a ">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ol>
-        </li>
-        <li>Databases
-            <ol type="A">
-                <li>MySQL</li>
-                <li>MongoDB</li>
-            </ol>
-        </li>
-    </ul>
+    <div class="header">
+        <h2>ABES ENGINEERING COLLEGE</h2>
+        </div>
+    <nav class="main">
+        <ul class="list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about%20us.html">ABOUT US</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact%20us.html">CONTACT US</a></li>
+        </ul>
+        </nav>
+        <div class="container"></div>
+        <div class="box box1"></div>
+        <div class="box box2"></div>
 </body>
 </html>
